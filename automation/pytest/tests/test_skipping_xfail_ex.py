@@ -2,7 +2,7 @@ import sys
 
 import pytest
 
-from tut3.myapp.sample import add
+from src.skipping_xfail_ex import add
 
 
 @pytest.mark.skip(reason="just wanna skip it")

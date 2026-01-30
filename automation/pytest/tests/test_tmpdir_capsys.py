@@ -1,7 +1,7 @@
 import json
 import os
 
-from tut5.myapp.sample import save_dict
+from src.tmpdir_capsys import save_dict
 
 
 def test_save_dict(tmpdir, capsys):

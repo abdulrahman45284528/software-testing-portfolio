@@ -1,6 +1,6 @@
 import pytest
 
-from tut2.myapp.sample import validate_age
+from src.exceptions_ex import validate_age
 
 
 def test_validate_age_valid_age():

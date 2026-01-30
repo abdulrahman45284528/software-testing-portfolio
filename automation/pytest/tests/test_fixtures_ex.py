@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from tut6.myapp.student import Student
+from src.fixtures_ex import Student
 
 
 @pytest.fixture(scope="function")

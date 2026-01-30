@@ -1,4 +1,4 @@
-from src.assert1 import add
+from src.assert_ex import add
 
 
 def test_add_num():

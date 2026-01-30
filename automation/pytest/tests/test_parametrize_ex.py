@@ -1,6 +1,6 @@
 import pytest
 
-from tut4.myapp.sample import add
+from src.parametrize_ex import add
 
 
 def test_add_num():
