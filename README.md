@@ -18,6 +18,12 @@ This repository is built to show practical testing skills with real artifacts (t
 - Python unit tests using **Pytest**
 - Examples: assertions, fixtures, parametrization, exceptions, skipping/xfail
 - Mini project: **Shopping Cart** tests
+## Latest Test Run (Pytest)
+
+- Command: `pytest -v`
+- Result: **23 passed, 3 skipped**
+- Location: `automation/pytest/`
+
 
 ### ✅ UI Automation – Playwright (`playwright/`)
 - UI automation setup using **Playwright**
