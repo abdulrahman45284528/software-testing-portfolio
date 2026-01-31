@@ -26,7 +26,7 @@ This repository is built to show practical testing skills with real artifacts (t
 ---
 
 ## Tools & Tech
-- **Python 3.x**
+- **Python 3.12.2**
 - **Pytest**
 - **Playwright**
 - **Postman**
@@ -46,7 +46,7 @@ Go to the Pytest project folder:
 bash
 Copy code
 cd automation/pytest
-Install dependencies (if you have requirements.txt):
+Install dependencies (pip install pytest):
 
 bash
 Copy code
