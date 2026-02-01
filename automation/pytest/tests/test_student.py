@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from tut7.myapp.student import get_topper
+from src.student import get_topper
 
 
 def test_student_get_age(dummy_student):

@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from tut7.myapp.student import Student
+from src.student import Student
 
 
 @pytest.fixture
