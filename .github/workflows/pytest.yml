@@ -25,8 +25,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install pytest
+          pip install pytest pytest-html
 
-      - name: Run tests
+      - name: Run tests (HTML report)
         working-directory: automation/pytest
-        run: pytest -v
+        run: |
+          mkdir -p reports
+          pytest -v --html=reports/pytest-report.html --self-contained-html
+
+      - name: Upload pytest report
+        uses: actions/upload-artifact@v4
+        with:
+          name: pytest-report
+          path: automation/pytest/reports/pytest-report.html
